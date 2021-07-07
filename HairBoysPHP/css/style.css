@@ -1,0 +1,358 @@
+/*<-----------Start all page CSS----------->*/
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #5f5f79;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 100px;
+	margin: 10px auto;
+	align-items: center;
+}
+
+.freeshippingbar{
+	top: 0px;
+	text-align:center;
+	padding: 6px 10px;
+	left: 0px;
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	position: absolute;
+	background-color: #e4e4e4;
+	font-size: 11px;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
+	flex: 1;
+	margin-top: 60px;
+}
+
+nav {
+	flex: 2;
+}
+
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+
+.nav-links img{
+	padding-left: 5px;
+}
+
+.nav-links img:hover{
+	opacity: 0.5;
+}
+
+.nav-link {
+	color: #5f5f79;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.nav-link:hover {
+	color: #969696;
+	font-weight: 600;
+}
+
+#searchbar{
+  text-align:center;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #5f5f79;
+}
+
+#searchButton{
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.cart img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+main h1{
+	text-transform: uppercase;
+  letter-spacing: 1px;
+	font-size: 50px;
+	font-weight: 600;
+	margin: 30px 0px 30px 0px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	min-height: 90vh;
+	text-align: center;
+}
+
+main p {
+	font-size: 18px;
+}
+
+h2, h3, h4{
+	text-transform: uppercase;
+  letter-spacing: 1px;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.container{
+	margin-top: 10%;
+}
+
+/* <---------------Landing page CSS----------------->*/
+.banner {
+	padding: 0px;
+}
+
+.banner img{
+	display: block;
+	margin: 0 auto;
+	width: 90%
+}
+
+.companyname h1{
+	text-transform: uppercase;
+  letter-spacing: 1px;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+
+.companyname p{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.featured{
+	padding: 50px 0px 30px 0px;
+}
+
+.featprod {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.featprod img {
+	padding: 10px;
+	max-height: 400px;
+	max-width: 400px;
+	width: 300px;
+	height: 300px;
+}
+
+.featprod img:hover {
+	transform: scale(1.01);
+}
+
+#brands {
+	text-align: center;
+}
+
+.brands-logo-row1 img,
+.brands-logo-row2 img{
+	display: inline-block;
+	padding: 10px;
+}
+
+#about-us {
+	margin-top: 30px;
+	margin-bottom: 80px;
+	text-align: center;
+	font-size: 18px;
+	text-align: center;
+  letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.usphotos img{
+	display: inline-block;
+	max-height: 400px;
+	max-width: 400px;
+	padding: 20px;;
+}
+
+/* <---------------End Landing page CSS----------------->*/
+
+.product-container {
+	display: inline-block;
+  background-color: #fff;
+  padding: 30px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.product-info {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.product-info img {
+  width: 300px;
+  height: 300px;
+}
+/* <---------------End Landing page CSS----------------->*/
+
+/* <---------------Individual Product Page CSS----------------->*/
+.indivProdContainer{
+	display:inline-block;
+	justify-content: center;
+}
+.product-info{
+	padding: 30px 0px 30px 0px;
+	width: 400px;
+}
+
+.product-info p{
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+  letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.cta {
+	align-items: center;
+	padding: 20px 0px 100px 0px;
+}
+
+.cta-add, .btn {
+	border: none;
+	background: #5f5f79;
+	color: white;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+/*<---------------End Individual Product Page CSS----------------->*/
+
+
+/*<--------------Product Page CSS----------------->*/
+#showallbutton, #ratingbutton, #pricebutton{
+	position: relative;
+	padding: 50px 10px;
+}
+.searchbuttons{
+	position: relative;
+}
+
+#searchbuttons{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#ratingbutton {
+  position: relative;
+  display: inline-block;
+}
+
+#pricebutton {
+  position: relative;
+  display: inline-block;
+}
+
+#filterdropdown{
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#ratingbutton:hover #filterdropdown {
+  display: block;
+}
+
+#pricebutton:hover #filterdropdown {
+  display: block;
+}
+
+.prodPageContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+/*<--------------End Product Page CSS----------------->*/
+
+/*<-------------Start login CSS-------------->*/
+
+.logincontainer{
+	margin-top: 15%;
+}
+
+.loginButton{
+	position: relative;
+	padding: 30px 10px;
+}
+
+.inputtext{
+	height:30px;
+	text-align: center;
+}
+
+/*<-------------End login CSS-------------->*/
+
+/*<-------------Start Footer CSS-------------->*/
+
+.footer-wrapper{
+	position: absolute;
+	background-color: #e4e4e4;
+	text-align: center;
+	display: flex;
+	align-items: flex-end;
+  justify-content: space-between;
+	padding: 20px 5%;
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+}
+
+.footer-wrapper p{
+	font-weight: bold;
+	font-size: 13px;
+}
+/*<-------------End Footer CSS------------->*/
